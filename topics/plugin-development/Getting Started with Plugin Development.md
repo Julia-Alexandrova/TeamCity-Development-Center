@@ -55,11 +55,14 @@ mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate -DarchetypeRepo
 
 We used the following values:
 
+| Property         | Value
+|------------------|----------------------------------------|
 |`groudId`         | `com.demoDomain.teamcity.demoPlugin`    |
 |`artifactId`      | `demoPlugin`                            |
 |`version`         | leave the default `1.0-SNAPSHOT`        |
 |`packaging`       | leave the default package namе          |
-|`teamcityVersion` | 2018.1. Refer to the released versions list of the [TeamCity server API](https://download.jetbrains.com/teamcity-repository/org/jetbrains/teamcity/server-api/).|
+|`teamcityVersion` | 2018.1. (See the released versions list of the [TeamCity server API](https://download.jetbrains.com/teamcity-repository/org/jetbrains/teamcity/server-api/).|
+
 
 
 `demoPlugin` will be used as the internal name of our plugin.
