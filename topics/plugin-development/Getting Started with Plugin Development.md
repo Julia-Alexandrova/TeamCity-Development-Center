@@ -61,7 +61,7 @@ We used the following values:
 |`artifactId`      | `demoPlugin`                            |
 |`version`         | leave the default `1.0-SNAPSHOT`        |
 |`packaging`       | leave the default package namе          |
-|`teamcityVersion` | 2018.1. (See the released versions list of the [TeamCity server API](https://download.jetbrains.com/teamcity-repository/org/jetbrains/teamcity/server-api/).|
+|`teamcityVersion` | 2018.1. (See+ the released versions list of the [TeamCity server API](https://download.jetbrains.com/teamcity-repository/org/jetbrains/teamcity/server-api/).|
 
 
 
@@ -85,7 +85,7 @@ The root of the `demoPlugin` directory contains the following:
 Step 3. Edit the plugin descriptor
 ----------------------------------
 
-Open the teamcity\-plugin.xml file in the project root folder with Intellij IDEA and add details, such as the plugin display name, description, vendor, and etc. by modifying [the corresponding attributes](https://confluence.jetbrains.com/display/TCDL/Plugins+Packaging#PluginsPackaging-PluginDescriptor) in the file.
+Open the teamcity-plugin.xml file in the project root folder with Intellij IDEA and add details, such as the plugin display name, description, vendor, and etc. by modifying [the corresponding attributes](https://confluence.jetbrains.com/display/TCDL/Plugins+Packaging#PluginsPackaging-PluginDescriptor) in the file.
 
 Step 4. Create the plugin sources
 ---------------------------------
@@ -94,7 +94,7 @@ Open the `pom.xml` from the project root folder with Intellij IDEA.
 
 We are going to make a controller class which will return `Hello.jsp` via a specific TeamCity URL.
 
-### A. Create the plugin web\-resources
+### A. Create the plugin web-resources
 
 The plugin web resources (files that are accessed via hyperlinks and JSP pages) are to be placed into the `buildServerResources` subfolder of the plugin's resources.
 
