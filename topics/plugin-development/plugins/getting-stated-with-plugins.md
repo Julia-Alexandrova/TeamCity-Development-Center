@@ -1,4 +1,6 @@
-*   [Introduction](#GettingStartedwithPluginDevelopment-Introduction)
+Getting Started with Plugin Development
+-----------------------------------------  
+* [Introduction](#GettingStartedwithPluginDevelopment-Introduction)
 *   [Step 1. Set up the environment](#GettingStartedwithPluginDevelopment-Step1.Setuptheenvironment)
 *   [Step 2. Generate a Maven project](#GettingStartedwithPluginDevelopment-Step2.GenerateaMavenproject)
     *   [View the project structure](#GettingStartedwithPluginDevelopment-Viewtheprojectstructure)
